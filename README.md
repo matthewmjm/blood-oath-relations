@@ -52,21 +52,21 @@ Questions you should ask yourself:
 **`Cult`**
 
 * `Cult#name`
-  * returns a `String` that is the cult's name
+  * returns a `String` that is the cult's name -DONE
 * `Cult#location`
-  * returns a `String` that is the city where the cult is located
+  * returns a `String` that is the city where the cult is located - DONE
 * `Cult#founding_year`
-  * returns a `Fixnum` that is the year the cult was founded
+  * returns a `Fixnum` that is the year the cult was founded - DONE
 * `Cult#slogan`
-  * returns a `String` that is this cult's slogan
+  * returns a `String` that is this cult's slogan - DONE
 * `Cult#recruit_follower`
-  * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
+  * takes in an argument of a `Follower` instance and adds them to this cult's list of followers - DONE
 * `Cult#cult_population`
-  * returns a `Fixnum` that is the number of followers in this cult
+  * returns a `Fixnum` that is the number of followers in this cult- DONE
 * `Cult.all`
-  * returns an `Array` of all the cults
+  * returns an `Array` of all the cults - DONE
 * `Cult.find_by_name`
-  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument
+  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument- DONE
 * `Cult.find_by_location`
   * takes a `String` argument that is a location and returns an `Array` of cults that are in that location
 * `Cult.find_by_founding_year`
@@ -75,17 +75,17 @@ Questions you should ask yourself:
 **`Follower`**
 
 * `Follower#name`
-  * returns a `String` that is the follower's name
+  * returns a `String` that is the follower's name - DONE
 * `Follower#age`
-  * returns a `Fixnum` that is the age of the follower
+  * returns a `Fixnum` that is the age of the follower - DONE
 * `Follower#life_motto`
-  * returns a `String` that is the follower's life motto
+  * returns a `String` that is the follower's life motto - DONE
 * `Follower#cults`
   * returns an `Array` of this follower's cults
 * `Follower#join_cult`
   * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
 * `Follower.all`
-  * returns an `Array` of all the followers
+  * returns an `Array` of all the followers - DONE
 * `Follower.of_a_certain_age`
   * takes a `Fixnum` argument that is an age and returns an `Array` of followers who are the given age or older
 
